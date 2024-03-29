@@ -1,0 +1,52 @@
+*
+{
+	box-sizing: border-box;
+}
+input[type=text], select ,textarea,input[type=checkbox],input[type=password],input[type=date],input[type=email]
+{
+	width: 100%;
+	padding: 12px;
+	border: 1px solid#ccc;
+	border-radius: 4px;
+	resize: vertical;
+}
+input[type=radio]
+{
+
+	padding: 12px;
+	border: 1px solid#ccc;
+	border-radius: 4px;
+}
+label
+{
+	padding: 12px 12px 12px 0px;
+	display: inline-bock;
+}
+input[type=submit],input[type=reset]
+{
+	background-color: #1a1a1a;
+	padding: 12px 20px;
+	border: none;
+	border-radius: 4px;
+	color: white;
+}
+input[type=submit]:hover,input[type=reset]:hover
+{
+	background-color: #333333
+}
+body
+{
+	background: black;
+}
+form
+{
+	border-radius: 5px;
+	background-color: #1a1a1a;
+	padding: 20px;
+	color: white;
+	align-items: center;
+	justify-content: center;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}

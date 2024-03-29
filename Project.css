@@ -1,0 +1,196 @@
+
+.navbar
+{
+	display: flex;
+	align-items: center;
+	justify-content: left;
+	position: sticky;
+	top: 0;
+	cursor: pointer;
+}
+.Bodybackground
+{
+	background: #1a1a1a;
+}
+.background 
+{
+	background: black;
+	background-blend-mode: darken;
+	background-size: cover;
+}
+.nav-list
+{
+	width: 70%;
+	display: flex;
+	align-items: center;
+}
+.logo 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo img
+{
+	width: 290px;
+	height: 200px;
+	border-radius: 50px;
+}
+.nav-list li
+{
+	list-style: none;
+	padding: 26px 30px;
+}
+.nav-list li a 
+{
+	text-decoration: none;
+	color: white;
+}
+.nav-list li a:hover
+{
+	color: grey;
+}
+.rightnav
+{
+	width: 20%;
+	text-align: right;
+}
+.btn 
+{
+	padding: 10px 20px;
+	margin: 8px 0;
+	border: 2px solid white;
+	border-radius: 8px;
+	background: none;
+	color: white;
+	cursor: pointer;
+	width: 50px;
+}
+.btn-sm 
+{
+	padding: 2px 0px;
+	vertical-align: middle;
+}
+#searchresultsarea
+{
+    margin-left: 150px;
+    font-family: 'Arial';
+}
+.firstsection
+{
+        height: 100%;
+}
+.secondsection
+{
+        height: 100%;
+}
+.thirdsection
+{
+	height: 100%
+}
+.first 
+{
+	text-align: center;
+}
+.firsthalf 
+{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.secondhalf 
+{
+        width: 30%;
+}
+.thirdhalf
+{
+	    width: 30%;
+}
+.text-footer
+{
+        text-align: center;
+        padding: 10px 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+}
+.social-media li a
+{
+        text-decoration: none;
+        color: white;
+	padding: 0px 10px 0px 0px;
+}
+.social-media ul
+{
+	display: flex;
+	justify-content: center;
+	color: white; 
+}
+.social-media ul 
+{
+	margin: 0 10px;
+	color: white;
+	padding: 0px 0px 0px 0px;
+}
+.Footerbackground
+{
+        background: black;
+        background-blend-mode: darken;
+        background-size: cover;
+}
+.text-big 
+{
+        font-family: 'Piazzolla', serif;
+        font-weight: bold;
+        font-size: 35px;
+	color: white;
+}
+h1:hover
+{
+	text-shadow: 2px 2px darkgrey;
+}
+p
+{
+	color: white;
+}
+.section 
+{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+p 
+{
+    font-size: 18px;
+    color: grey;
+}
+
+.center
+{
+        text-align: center;
+}
+.text-footer
+{
+        text-align: center;
+        padding: 10px 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+}
+#Achievements
+{
+	color: white;
+}
+.box-main
+{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        margin: auto;
+        height: 80%;
+}

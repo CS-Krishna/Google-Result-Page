@@ -1,0 +1,204 @@
+*
+{
+        margin: 0;
+        padding: 0;
+}
+body
+{
+	background: #1a1a1a;
+	color: lightgrey;
+}
+.navbar
+{
+        display: flex;
+        align-items: center;
+        justify-content: left;
+        position: sticky;
+        top: 0;
+        cursor: pointer;
+}
+.background
+{
+        background: black;
+        background-blend-mode: darken;
+        background-size: cover;
+}
+.Footerbackground
+{
+        background: black;
+        background-blend-mode: darken;
+        background-size: cover;
+}
+.nav-list
+{
+	width: 70%;
+        display: flex;
+        align-items: center;
+}
+.logo 
+{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.logo img
+{
+	width: 300px;
+	height: 250px;
+	border-radius: 50px;
+}
+.nav-list li
+{
+        list-style: none;
+        padding: 26px 30px;
+}
+.nav-list li a 
+{
+        text-decoration: none;
+        color: white;
+} 
+.nav-list li a:hover
+{
+        color: grey;
+} 
+.rightnav 
+{
+        width: 30%;
+        text-align: right;
+}
+*
+{
+  box-sizing: border-box;
+}
+.column img:hover
+{
+	box-shadow: 5px 5px 5px 5px black;
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  object-fit: cover;
+  z-index: 9999;
+  opacity: 1;
+	transform: translateX(100%);
+}
+.column
+{
+	float: left;
+	width: 33.33%;
+	padding: 100px;
+
+}
+.column img
+{
+	transition: transform 1.5s ease;
+
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+.firstsection
+{
+        height: 100%;
+}
+.secondsection
+{
+        height: 100%;
+}
+.thirdsection
+{
+	height: 100%
+}
+.box-main
+{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 80%;
+        margin: auto;
+        height: 80%;
+}
+.first 
+{
+	text-align: center;
+}
+.firsthalf 
+{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+}
+.secondhalf 
+{
+        width: 30%;
+}
+.thirdhalf
+{
+	    width: 30%;
+}
+.text-big 
+{
+        font-family: 'Piazzolla', serif;
+        font-weight: bold;
+        font-size: 35px;
+	color: white;
+}
+h1:hover
+{
+	text-shadow: 2px 2px darkgrey;
+}
+.text-small 
+{
+        font-size: 18px;
+}
+.section 
+{
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}
+.paras 
+{
+        padding: 0px 65px;
+}
+.center
+{
+        text-align: center;
+}
+.text-footer
+{
+        text-align: center;
+        padding: 10px 0;
+        font-family: 'Ubuntu', sans-serif;
+        display: flex;
+        justify-content: center;
+        color: white;
+}
+.social-media li a
+{
+        text-decoration: none;
+        color: white;
+	padding: 0px 10px 0px 0px;
+}
+.social-media ul
+{
+	display: flex;
+	justify-content: center;
+	color: white;
+}
+.social-media ul 
+{
+	margin: 0 10px;
+	color: white;
+	padding: 0px 0px 0px 0px;
+}
+.imag
+{
+	opacity: 0.5;
+	aspect-ratio: 2.3/3;
+	width: 100%;
+}
